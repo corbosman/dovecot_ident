@@ -16,9 +16,7 @@ class ident extends rcube_plugin
 
   function add_ident($args)
   {
-xs_log($args);
     $args['ident'] = array_merge($args['ident'], array('x-originating-ip' => $_SERVER['REMOTE_ADDR']));
-    xs_log($args);
     return $args;
   }
 }

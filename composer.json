@@ -13,12 +13,6 @@
               "role": "Developer"
           }
       ],
-  "repositories": [
-      {
-          "type": "composer",
-          "url": "http://plugins.roundcube.net"
-      }
-    ],
   "support": {
           "email": "cor@roundcu.be",
           "issues": "https://github.com/corbosman/ident/issues"

@@ -4,7 +4,6 @@
     "description":"Log client ip number instead of webserver ip number on the imap server",
     "keywords": ["roundcube","ident"],
     "homepage":"https://github.com/corbosman/ident",
-    "version": "1.0",
     "license":"GPL-2.0",
     "authors": [
           {

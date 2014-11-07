@@ -5,6 +5,7 @@
     "keywords": ["roundcube","ident"],
     "homepage":"https://github.com/corbosman/ident",
     "license":"GPL-2.0",
+    "version":"1.5",
     "authors": [
           {
               "name": "Cor Bosman",

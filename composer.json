@@ -3,7 +3,7 @@
     "type": "roundcube-plugin",
     "description": "Log client ip number instead of webserver ip number on the imap server",
     "keywords": [
-        "roundcube",
+        "dovecot",
         "ident"
     ],
     "homepage": "https://github.com/corbosman/ident",

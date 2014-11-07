@@ -1,11 +1,11 @@
 {
     "name": "cor/ident",
     "type": "roundcube-plugin",
-    "description":"Log client ip number instead of webserver ip number on the imap server",
+    "description": "Log client ip number instead of webserver ip number on the imap server",
     "keywords": ["roundcube","ident"],
-    "homepage":"https://github.com/corbosman/ident",
-    "license":"GPL-2.0",
-    "version":"1.5",
+    "homepage": "https://github.com/corbosman/ident",
+    "license": "GPL-2.0",
+    "version": "1.5",
     "authors": [
           {
               "name": "Cor Bosman",

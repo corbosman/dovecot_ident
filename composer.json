@@ -1,6 +1,5 @@
 {
     "name": "cor/ident",
-    "description": "Log client ip number instead of webserver ip number on the imap server",
     "type": "roundcube-plugin",
     "license": "GPL-3.0+",
     "repositories": [

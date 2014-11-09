@@ -1,14 +1,33 @@
 {
-    "name": "cor/ident",
+    "name": "cor/dovecot-ident",
     "type": "roundcube-plugin",
-    "license": "GPL-3.0+",
+    "description": "Log client ip number instead of webserver ip number on the dovecot imap server",
+    "keywords": [
+        "dovecot",
+        "ident"
+    ],
+    "homepage": "https://github.com/corbosman/ident",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Cor Bosman",
+            "email": "cor@roundcu.be",
+            "homepage": "http://underwa.ter.net",
+            "role": "Developer"
+        }
+    ],
     "repositories": [
         {
             "type": "composer",
             "url": "http://plugins.roundcube.net"
         }
     ],
+    "support": {
+        "email": "cor@roundcu.be",
+        "issues": "https://github.com/corbosman/ident/issues"
+    },
     "require": {
+        "php": ">=5.3.0",
         "roundcube/plugin-installer": ">=0.1.3"
     }
 }

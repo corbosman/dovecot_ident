@@ -1,4 +1,4 @@
-ident
+roundcube-dovecot-ident
 =====
 
 Roundcube Ident Plugin that uses IMAP ID to pass some logging info to the remote imap server.

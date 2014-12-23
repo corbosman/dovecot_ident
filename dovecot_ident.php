@@ -7,7 +7,7 @@
   * @author Cor Bosman
   */
 
-class ident extends rcube_plugin 
+class dovecot_ident extends rcube_plugin 
 {
 
   function init()

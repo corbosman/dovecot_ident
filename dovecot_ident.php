@@ -17,8 +17,11 @@ class dovecot_ident extends rcube_plugin
 
   function add_ident($args)
   {
-    $args['preauth_ident'] = $args['preauth_ident'] ? array_merge($args['preauth_ident'], array('x-originating-ip' => $_SERVER['REMOTE_ADDR']))
-									: array('x-originating-ip' => $_SERVER['REMOTE_ADDR']);
+    if (isset($args['preauth_ident'])) {
+      $args['preauth_ident'] = array_merge($args['preauth_ident'], array('x-originating-ip' => $_SERVER['REMOTE_ADDR']));
+    } else {
+      $args['preauth_ident'] = array('x-originating-ip' => $_SERVER['REMOTE_ADDR']);
+    }
     return $args;
   }
 }
